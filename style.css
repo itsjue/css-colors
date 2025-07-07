@@ -1,1 +1,44 @@
 /* Start coding here */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background-1 {
+  min-height: 100vh;
+  background: hsl(0, 100%, 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-2 {
+  width: 100vw;
+  height: 80vh;
+  background: hsl(240, 100%, 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.1);
+}
+
+.welcome-box {
+  background: hsla(0, 50%, 100%, 0.5);
+  padding: 3rem 4rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.welcome-box h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+}
+
+.welcome-box p {
+  margin: 0;
+  font-size: 1.25rem;
+}
